@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [nopCommerce Regression suite]">
+  <test thread-count="5" name="Regression test(failed)">
+    <classes>
+      <class name="tests.addingProhibitedProductTest">
+        <methods>
+          <include name="StopDriver"/>
+          <include name="userCanAddProhibitedProductSuccessfully"/>
+          <include name="StartDriver"/>
+        </methods>
+      </class> <!-- tests.addingProhibitedProductTest -->
+    </classes>
+  </test> <!-- Regression test(failed) -->
+</suite> <!-- Failed suite [nopCommerce Regression suite] -->
